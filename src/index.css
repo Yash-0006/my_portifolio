@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
+@import "tailwindcss";
+
+*{
+    font-family: "League Spartan";
+}
+
+/* Default (mobile-first) */
+.stroke-text {
+    -webkit-text-stroke: 1px #171717;
+  }
+  
+  /* For sm and above (min-width: 640px) */
+  @media (min-width: 640px) {
+    .stroke-text {
+      -webkit-text-stroke: 3px #171717;
+    }
+  }
