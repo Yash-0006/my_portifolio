@@ -8,7 +8,7 @@ const Footer = () => {
       <div className='flex flex-col gap-2 sm:gap-5 '>
         <h1 className='font-extrabold text-2xl sm:text-4xl'>Let's Talk</h1>
         <p className='font-medium text-lg sm:text-xl text-gray-500'>Whether you have an idea, a project, or just want to say hi I’m always open to a conversation. Feel free to reach out and let's create something amazing together!</p>
-        <Link to='https://wa.me/+917032960122' className='bg-black rounded-full text-sm sm:text-base font-semibold text-white py-2 w-25 sm:w-30 text-center transition-all hover:bg-gray-200 hover:text-black'>
+        <Link to='/contact' className='bg-black rounded-full text-sm sm:text-base font-semibold text-white py-2 w-25 sm:w-30 text-center transition-all hover:bg-gray-200 hover:text-black'>
           Reach Out
         </Link> 
       </div>
@@ -30,7 +30,7 @@ const Footer = () => {
         <div className='hidden sm:flex flex-col gap-4 text-base sm:text-xl font-semibold text-gray-500 text-wrap'>
           <p > yaswanthgodavarthi0006@gmail.com</p>
           <p > +91 7032960122</p>
-          <p > F1, Meduri Paradise, Rajahmundry, East Godavari Dist, AP, 532203. </p>
+          <p > F1, Meduri Paradise, Rajahmundry, East Godavari Dist, AP, 533103. </p>
 
           <div className='flex gap-4'>
               <a href='mailto:yaswanthgodavarthi0006@gmail.com'><img className='w-7.5 transition-transform duration-300 ease-in-out hover:scale-110' src={images.logoMail} alt='' /></a>

@@ -3,9 +3,9 @@ import { images } from '../assets/images/images'
 
 const Skills = () => {
   return (
-    <div className='flex justify-center items-center sm:h-[100vh]'>
+    <div className='flex justify-center items-center h-[85vh] sm:h-[100vh]'>
       <div className='flex flex-col justify-center items-center sm:items-start w-5/6 sm:w-1/2 m-10 px-5 sm:px-20 py-10 rounded-2xl shadow-2xl'>
-        <h1 className='text-3xl font-semibold mb-8 sm:text-6xl sm:font-extrabold sm:mb-13 flex items-center justify-center w-full'>SKILLS</h1>
+        <h1 className='text-3xl font-semibold mb-8 sm:text-6xl sm:mb-13 flex items-center justify-center w-full'>Skills</h1>
         <div className='flex  gap-5 mb-6'>
           <p className='hidden sm:block text-4xl font-semibold'>Frontend : </p>
           <img className='w-8 sm:w-12' src={images.logoHtml} alt='' />

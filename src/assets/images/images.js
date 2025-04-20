@@ -22,6 +22,7 @@
     import logoVs from "./vscode.png"
     import logoMe from "./me.png"
     import logopy from "./logopy.png"
+    import logoshake from "./logoshake.png"
 
 
     import proj0 from "./forever.png"
@@ -34,6 +35,7 @@
 
 export const images ={
     logo,
+    logoshake,
     logopy,
     logoMe,
     logoVs,

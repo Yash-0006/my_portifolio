@@ -18,7 +18,7 @@ const Navbar = () => {
             <NavLink to='/' className='px-5 flex flex-col items-center hover:text-gray-400 text-black'>
                 <p>Home</p>
             </NavLink>
-            <NavLink to='https://drive.google.com/file/d/1YDDjaJfhpQ2JbOP570IHXmfOu05kKvUG/view?usp=sharing' className='px-5 flex flex-col items-center hover:text-gray-400 text-black'>
+            <NavLink to='https://drive.google.com/file/d/1bo4EwEh5zmxvOaoDdNuXe_g9479kiS-r/view?usp=sharing' className='px-5 flex flex-col items-center hover:text-gray-400 text-black'>
                 <p>Resume</p>
             </NavLink>
             <NavLink to='/skills' className='px-5 flex flex-col items-center hover:text-gray-400 text-black'>
@@ -26,6 +26,9 @@ const Navbar = () => {
             </NavLink>
             <NavLink to='/projects'  className='px-5 flex flex-col items-center hover:text-gray-400 text-black'>
                 <p>Projects</p>
+            </NavLink>
+            <NavLink to='/contact'  className='px-5 flex flex-col items-center hover:text-gray-400 text-black'>
+                <p>Contact</p>
             </NavLink>
         </div>
 
@@ -45,9 +48,10 @@ const Navbar = () => {
         <img onClick={()=>Setvisible(false)} className='w-7.5 my-5 mx-4' src={images.logoClose} alt='' />
             <div onClick={()=>Setvisible(false)} className='flex flex-col gap-10 justify-center items-center text-3xl font-semibold sm:hidden'>
                 <NavLink to='/' onClick={()=>Setvisible(false)} >Home</NavLink>
-                <NavLink to='https://drive.google.com/file/d/1YDDjaJfhpQ2JbOP570IHXmfOu05kKvUG/view?usp=sharing' onClick={()=>Setvisible(false)} >Resume</NavLink>
+                <NavLink to='https://drive.google.com/file/d/1bo4EwEh5zmxvOaoDdNuXe_g9479kiS-r/view?usp=sharing' onClick={()=>Setvisible(false)} >Resume</NavLink>
                 <NavLink to='/skills' onClick={()=>Setvisible(false)} >Skills</NavLink>
                 <NavLink to='/projects' onClick={()=>Setvisible(false)} >Projects</NavLink>
+                <NavLink to='/contact' onClick={()=>Setvisible(false)} >Contact</NavLink>
             </div>
         </div>
 
