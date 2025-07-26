@@ -18,7 +18,7 @@ const Navbar = () => {
             <NavLink to='/' className='px-5 flex flex-col items-center hover:text-gray-400 text-black'>
                 <p>Home</p>
             </NavLink>
-            <NavLink to='https://drive.google.com/file/d/1bo4EwEh5zmxvOaoDdNuXe_g9479kiS-r/view?usp=sharing' className='px-5 flex flex-col items-center hover:text-gray-400 text-black'>
+            <NavLink to='https://drive.google.com/file/d/10RqocFWQ6ycRLDFxnshTkIRlMSKUtJpz/view?usp=sharing' className='px-5 flex flex-col items-center hover:text-gray-400 text-black'>
                 <p>Resume</p>
             </NavLink>
             <NavLink to='/skills' className='px-5 flex flex-col items-center hover:text-gray-400 text-black'>

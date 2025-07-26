@@ -26,13 +26,13 @@ const handleSubmit = async (e) =>{
 }
 
   return (
-    <div className='md:h-[90vh] w-full flex flex-col md:flex-row  justify-center items-center gap-5 md:gap-25 my-10 md:my-2'>
+    <div className='lg:h-[90vh] w-full flex flex-col lg:flex-row  justify-center items-center gap-2 lg:gap-25 my-10 lg:my-2'>
         <div className='flex flex-col gap-3 sm:mb-20'>
         <img className='w-20 sm:w-30' src={images.logoshake} />
         <p className=' text-4xl sm:text-6xl font-semibold'>Let's Chat <br/> Tell me about your <br/> idea.</p>
         <p className='text-lg text-gray-500'>Let's create something together ✨</p>
         </div>
-        <div className='md:w-2/5'>
+        <div className='lg:w-2/5'>
             <form className='flex flex-col gap-5 p-10 shadow-2xl' onSubmit={handleSubmit}>
             <p className='text-3xl sm:text-5xl my-3'>Send me a message</p>
             <input className="bg-gray-100 h-10 p-2 border-1 border-gray-300 rounded-lg" type="text" name="name" placeholder="Your Name" required />
