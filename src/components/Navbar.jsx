@@ -8,10 +8,10 @@ const Navbar = () => {
     const [visible, Setvisible] = useState(false);
 
   return (
-    <div className='flex justify-between px-8 sm:px-20 py-1 shadow-lg'>
+    <div className='flex justify-between px-8 sm:px-5 lg:px-20 py-1 shadow-lg'>
 
         <NavLink to='/' >
-            <img className='w-30 sm:mx-4' src={images.logo} alt='' />
+            <img className='w-25 sm:w-30 sm:mx-4' src={images.logo} alt='' />
         </NavLink>
 
         <div className=' hidden md:flex justify-between items-center text-2xl font-semibold'>   
@@ -32,16 +32,16 @@ const Navbar = () => {
             </NavLink>
         </div>
 
-        <div className='flex gap-4 sm:gap-6 justify-between items-center'>
+        <div className='flex gap-2 lg:gap-6 justify-between items-center ml-3'>
             
-            <a href='mailto:yaswanthgodavarthi0006@gmail.com'><img className='w-7.5 transition-transform duration-300 ease-in-out hover:scale-110' src={images.logoMail} alt='' /></a>
+            <a href='mailto:yaswanthgodavarthi0006@gmail.com'><img className='w-6 sm:w-7.5 transition-transform duration-300 ease-in-out hover:scale-110' src={images.logoMail} alt='' /></a>
             <NavLink to='https://www.linkedin.com/in/yaswanth-godavarthi/' >
-                <img className='w-7.5 transition-transform duration-300 ease-in-out hover:scale-110' src={images.logoIn} alt='' />
+                <img className='w-6 sm:w-7.5  transition-transform duration-300 ease-in-out hover:scale-110' src={images.logoIn} alt='' />
             </NavLink>
             <NavLink to='https://github.com/Yash-0006' >
-            <img className='w-7.5 transition-transform duration-300 ease-in-out hover:scale-110' src={images.logoGit} alt='' />
+            <img className='w-6 sm:w-7.5  transition-transform duration-300 ease-in-out hover:scale-110' src={images.logoGit} alt='' />
             </NavLink>
-            <img onClick={()=>Setvisible(true)} className='w-7.5 md:hidden' src={images.logoMenu} alt='' />
+            <img onClick={()=>Setvisible(true)} className='w-6 sm:w-7.5  md:hidden' src={images.logoMenu} alt='' />
         </div>
 
         <div className={`absolute z-100 top-0 right-0 bottom-0 bg-white transition-all overflow-hidden ${visible ? 'w-full' : 'w-0'}`} >

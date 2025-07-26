@@ -3,13 +3,13 @@ import { images } from '../assets/images/images'
 
 const About = () => {
   return (
-    <div className="flex flex-col lg:flex-row items-center justify-center my-10 px-4 sm:px-8 lg:px-16 gap-8 w-full max-w-6xl mx-auto">
+    <div className="flex flex-col lg:flex-row items-center justify-center my-10 px-4 gap-8 w-full">
       <img
-        className="rounded-lg w-40 sm:w-56 md:w-64 lg:w-80 max-w-full mb-6 lg:mb-0 flex-shrink-0"
+        className="rounded-lg w-80 lg:w-100 max-w-full mb-6 lg:mb-0 flex-shrink-0"
         src={images.logoMe}
         alt="Yaswanth Godavarthi"
       />
-      <div className="flex-1 p-0 sm:p-4 max-w-2xl">
+      <div className="flex-1 p-5 sm:p-4 max-w-4xl ">
         <p className="text-base sm:text-lg md:text-xl text-gray-500 font-medium leading-relaxed">
           <span className="block text-black text-xl sm:text-3xl font-semibold mb-4 sm:leading-10">
             Hey there! I'm Yaswanth Godavarthi — part coder, part coffee-fueled night owl, and full-time problem solver. When I'm not turning console.log() into a lifestyle, I’m busy translating complex ideas into clean, efficient code (with a sprinkle of sarcasm and a whole lot of semicolons).
