@@ -39,6 +39,7 @@
     import proj9 from  "./atm.png"
     import proj10 from  "./tox.png"
     import proj11 from  "./ebhig.png"
+    import proj12 from  "./aaranal.png"
 
 export const images ={
     logo,
@@ -71,6 +72,13 @@ export const images ={
 }
 
 export const projects = [
+    {
+        _id:"p12",
+        image:[proj12],
+        link:"https://aaranaltales.shop/",
+        title:"Aaranal Ecommerece Platform",
+        desc:"This project is an eCommerce platform called Aaranal, designed to provide a seamless online shopping experience. It allows users to browse, search, and purchase a wide range of products while offering secure payments and real-time order tracking. The platform also features an intuitive admin dashboard for managing products, orders, and users efficiently."
+    },
     {
         _id:"p0",
         image:[proj7],
